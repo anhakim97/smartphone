@@ -24,9 +24,6 @@
         <Class IRI="#128Gb"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#12Mp"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#16Gb"/>
     </Declaration>
     <Declaration>
@@ -37,9 +34,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#2Gb"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#2Mp"/>
     </Declaration>
     <Declaration>
         <Class IRI="#3000Mah"/>
@@ -72,9 +66,6 @@
         <Class IRI="#5Inch"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#5Mp"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#64Gb"/>
     </Declaration>
     <Declaration>
@@ -87,10 +78,19 @@
         <Class IRI="#8Gb"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#8Mp"/>
+        <Class IRI="#Asus"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Asus"/>
+        <Class IRI="#GalaxyNote8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GalaxyS8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GalaxyS9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#J5"/>
     </Declaration>
     <Declaration>
         <Class IRI="#JellyBean"/>
@@ -105,6 +105,12 @@
         <Class IRI="#Marshmallow"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Mi6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiNote3"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Nougat"/>
     </Declaration>
     <Declaration>
@@ -112,6 +118,15 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Oreo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Redmi3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Redmi5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RedmiNote5A"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Samsung"/>
@@ -132,7 +147,61 @@
         <Class IRI="#belakang"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#belakang-12Mp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#belakang-13Mp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#belakang-16Mp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#belakang-2Mp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#belakang-5Mp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#belakang-8Mp"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#depan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#depan-12Mp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#depan-13Mp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#depan-16Mp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#depan-2Mp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#depan-5Mp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#depan-8Mp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#f1Plus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#f1s"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#f3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#f5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#f5Plus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#galaxyA8Plus"/>
     </Declaration>
     <Declaration>
         <Class IRI="#kamera"/>
@@ -157,6 +226,42 @@
     </Declaration>
     <Declaration>
         <Class IRI="#snapdragon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#v5Plus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#v7plus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#v9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#x20Plus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zenfone2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zenfone3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zenfone4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zenfone5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zenfone6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zenfoneLive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#zenfoneMax"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#IsSpesifikasiOf"/>
@@ -211,14 +316,6 @@
         <Class IRI="#penyimpanan"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#12Mp"/>
-        <Class IRI="#belakang"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#12Mp"/>
-        <Class IRI="#depan"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#16Gb"/>
         <Class IRI="#penyimpanan"/>
     </SubClassOf>
@@ -233,14 +330,6 @@
     <SubClassOf>
         <Class IRI="#2Gb"/>
         <Class IRI="#ram"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#2Mp"/>
-        <Class IRI="#belakang"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#2Mp"/>
-        <Class IRI="#depan"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#3000Mah"/>
@@ -283,14 +372,6 @@
         <Class IRI="#layar"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#5Mp"/>
-        <Class IRI="#belakang"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#5Mp"/>
-        <Class IRI="#depan"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#64Gb"/>
         <Class IRI="#penyimpanan"/>
     </SubClassOf>
@@ -307,16 +388,24 @@
         <Class IRI="#penyimpanan"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#8Mp"/>
-        <Class IRI="#belakang"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#8Mp"/>
-        <Class IRI="#depan"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Asus"/>
         <Class IRI="#smartphone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GalaxyNote8"/>
+        <Class IRI="#Samsung"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GalaxyS8"/>
+        <Class IRI="#Samsung"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GalaxyS9"/>
+        <Class IRI="#Samsung"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#J5"/>
+        <Class IRI="#Samsung"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#JellyBean"/>
@@ -335,6 +424,14 @@
         <Class IRI="#VersiOS"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Mi6"/>
+        <Class IRI="#Xiaomi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiNote3"/>
+        <Class IRI="#Xiaomi"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Nougat"/>
         <Class IRI="#VersiOS"/>
     </SubClassOf>
@@ -345,6 +442,74 @@
     <SubClassOf>
         <Class IRI="#Oreo"/>
         <Class IRI="#VersiOS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Redmi3"/>
+        <Class IRI="#Xiaomi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Redmi5"/>
+        <Class IRI="#Xiaomi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedmiNote5A"/>
+        <Class IRI="#Xiaomi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedmiNote5A"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBaterai"/>
+            <Class IRI="#3000Mah"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedmiNote5A"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasKamera"/>
+            <Class IRI="#belakang-13Mp"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedmiNote5A"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasKamera"/>
+            <Class IRI="#depan-16Mp"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedmiNote5A"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLayar"/>
+            <Class IRI="#5.5Inch"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedmiNote5A"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPenyimpanan"/>
+            <Class IRI="#64Gb"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedmiNote5A"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasProsesor"/>
+            <Class IRI="#snapdragon"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedmiNote5A"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRam"/>
+            <Class IRI="#4Gb"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RedmiNote5A"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVersiOS"/>
+            <Class IRI="#Nougat"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Samsung"/>
@@ -363,16 +528,185 @@
         <Class IRI="#kamera"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#belakang-12Mp"/>
+        <Class IRI="#belakang"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#belakang-13Mp"/>
+        <Class IRI="#belakang"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#belakang-16Mp"/>
+        <Class IRI="#belakang"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#belakang-2Mp"/>
+        <Class IRI="#belakang"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#belakang-5Mp"/>
+        <Class IRI="#belakang"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#belakang-8Mp"/>
+        <Class IRI="#belakang"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#depan"/>
         <Class IRI="#kamera"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#depan-12Mp"/>
+        <Class IRI="#depan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#depan-13Mp"/>
+        <Class IRI="#depan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#depan-16Mp"/>
+        <Class IRI="#depan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#depan-2Mp"/>
+        <Class IRI="#depan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#depan-5Mp"/>
+        <Class IRI="#depan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#depan-8Mp"/>
+        <Class IRI="#depan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#f1Plus"/>
+        <Class IRI="#Oppo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#f1s"/>
+        <Class IRI="#Oppo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#f3"/>
+        <Class IRI="#Oppo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#f5"/>
+        <Class IRI="#Oppo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#f5Plus"/>
+        <Class IRI="#Oppo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#galaxyA8Plus"/>
+        <Class IRI="#Samsung"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#mediatek"/>
         <Class IRI="#prosesor"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#smartphone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBaterai"/>
+            <Class IRI="#baterai"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smartphone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasKamera"/>
+            <Class IRI="#kamera"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smartphone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLayar"/>
+            <Class IRI="#layar"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smartphone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPenyimpanan"/>
+            <Class IRI="#penyimpanan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smartphone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasProsesor"/>
+            <Class IRI="#prosesor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smartphone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRam"/>
+            <Class IRI="#ram"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smartphone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasVersiOS"/>
+            <Class IRI="#VersiOS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#snapdragon"/>
         <Class IRI="#prosesor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#v5Plus"/>
+        <Class IRI="#Vivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#v7"/>
+        <Class IRI="#Vivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#v7plus"/>
+        <Class IRI="#Vivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#v9"/>
+        <Class IRI="#Vivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#x20Plus"/>
+        <Class IRI="#Vivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zenfone2"/>
+        <Class IRI="#Asus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zenfone3"/>
+        <Class IRI="#zenfone2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zenfone4"/>
+        <Class IRI="#Asus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zenfone5"/>
+        <Class IRI="#zenfone3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zenfone6"/>
+        <Class IRI="#Asus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zenfoneLive"/>
+        <Class IRI="#Asus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#zenfoneMax"/>
+        <Class IRI="#Asus"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#VersiOS"/>
