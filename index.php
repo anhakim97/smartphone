@@ -69,8 +69,7 @@
             <div class="input-field col s12">
               <div class="form-group input-field col s12">
                 <select class="form-control" name="brand" required>
-                  <option value="allbrand" selected>Pilih brand</option>
-                  <option value="allbrand" >All Brand</option>
+                  <option value="allbrand" selected>All Brand</option>
                   <option value="2">Asus</option>
                   <option value="3">Oppo</option>
                   <option value="4">Samsung</option>
